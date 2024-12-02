@@ -50,6 +50,16 @@ m = 40
 print(n + m)
 print(n, m)
 
+#local and global variables
+x = "ending"
+
+def myfunc():
+  x = "2024"
+  print("The year is " + x)
+
+myfunc()
+
+print("The year is " + x)
 
 
 
