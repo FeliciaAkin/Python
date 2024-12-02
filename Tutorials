@@ -20,3 +20,41 @@ y = "Mark"
 print(type(x))
 print(type(y))
 
+#assigning multiple variables
+x, y, z = "Owl", "Bird", "Cow"
+
+print(x)
+print(y)
+print(z)
+
+x = y = z = "Owl"
+
+print(x)
+print(y)
+print(z)
+
+animals = ["ant", "bird", "cat"]
+x, y, z = animals
+
+print(x)
+print(y)
+print(z)
+
+#to output variables
+n = 30
+m = 'cows'
+print(n, m)
+
+n = 30
+m = 40
+print(n + m)
+print(n, m)
+
+
+
+
+
+
+
+
+
