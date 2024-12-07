@@ -1,0 +1,98 @@
+#getting data type
+x = 124
+print(type(x)) 
+
+#setting the Data Type: this is done by assigning values to a variable
+x = 78.5
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+x = ["apple", "banana", "cherry"]
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+x = {"name" : "Marvel", "age" : 19}
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+x = memoryview(bytes(7))
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+x = None
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+
+
+#you can also set the specific data type
+y = list(("apple", "banana", "cherry"))
+
+#display x:
+print(y)
+
+#display the data type of x:
+print(type(y)) 
+
+x = dict(name="Marvel", age=19)
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+x = float(78.5)
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+
+
+#converting from one type to another
+
+x = 23 #this is an int
+y = 23.23 #this is a float
+z = 23j #this is a complex
+
+#convert from int to float:
+x = float(23)
+
+#convert from float to int:
+y = int(23.23)
+
+#convert from int to complex:
+z = complex(23)
+
+print(x)
+print(y)
+print(z)
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
