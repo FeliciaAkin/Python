@@ -1,0 +1,112 @@
+#assigning a string to a variable
+x = "Hello"
+print(x)
+
+#you can use square brackets to access elements of the string
+a = "Hello, World!"
+print(a[4]) #H is position 0 not 1
+
+#strings are arrays, therefore, you can loop through the characters in a string, with a 'for' loop
+for x in "aeroplane":
+  print(x) 
+
+#use the len() function to get the length of a string
+a = "Hello, World!"
+print(len(a))
+
+#you  can check if a character is present in a string, as well as using 'if'
+txt = "This year has been a fulfilling year."
+print("year" in txt)
+
+txt = "This year has been a fulfilling year."
+if "year" in txt:
+  print("Yes, 'year' is present.")
+  
+txt = "This year has been a fulfilling year."
+print("tomorrow" not in txt)
+
+txt = "This year has been a fulfilling year."
+if "tomorrow" not in txt:
+  print("No, 'tomorrow' is NOT present.")
+
+#slicing a string
+b = "Hello, World!"
+print(b[1:9])
+
+b = "Hello, World!"
+print(b[:4])
+
+b = "Hello, World!"
+print(b[3:])
+
+b = "Hello, World!"
+print(b[-6:-3])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
